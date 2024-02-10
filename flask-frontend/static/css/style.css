@@ -1,0 +1,135 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+h1 {
+    font-size: 4em;
+    margin: 0;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+#image-and-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#left-section {
+    flex: 1;
+    padding: 20px;
+    max-width: 60%; /* Adjust the width of the left section */
+}
+
+#left-section img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+}
+
+#right-section {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 80%; /* Adjust the width of the right section */
+}
+
+#right-section h2 {
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label[for="lung_scan"] {
+    display: block;
+    margin-bottom: 20px; /* Increase the margin for better spacing */
+    font-weight: bold;
+    color: #007bff;
+    font-size: 2em; /* Increase the font size for better readability */
+}
+
+input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+#loading-indicator,
+#message-area {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #007bff;
+}
+
+#learn-more {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#learn-more ul {
+    list-style: none;
+    padding: 0;
+}
+
+#learn-more ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+#learn-more a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#learn-more a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
